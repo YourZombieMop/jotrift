@@ -1,9 +1,9 @@
 {
-  "name": "website",
+  "name": "jotrift",
   "version": "0.1.0",
-  "description": "",
-  "author": "",
-  "license": "",
+  "description": "An open-source recursive note taking application built with TypeScript, React, Sass, & Jest",
+  "author": "Matthew Boyea",
+  "license": "GNU General Public License v3",
   "scripts": {
     "build": "npm run build:dev",
     "build:dev": "webpack --config webpack/webpack.config.js --env env=dev --stats-children",
@@ -30,7 +30,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@types/jest": "^28.1.0",
-    "@types/react": "^18.0.10",
+    "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "babel-jest": "^28.1.1",
     "babel-loader": "^8.2.5",

@@ -11,10 +11,11 @@ Directory Overview
  ┃ ┣ 📜file-mock.js
  ┃ ┗ 📜style-mock.js
 📦webpack
+ ┣ 📜webpack.config.common.js
  ┣ 📜webpack.config.dev.js
- ┣ 📜webpack.config.global.js
  ┣ 📜webpack.config.js
- ┗ 📜webpack.config.prod.js
+ ┣ 📜webpack.config.prod.js
+ ┗ 📜webpack.config.stage.js
 📜.babelrc.js
 📜.gitignore
 📜jest.config.js

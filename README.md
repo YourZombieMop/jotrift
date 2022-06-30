@@ -16,7 +16,7 @@ To use this application, visit [https://jotrift.com].
 * Open a terminal in the root directory.
 * Run `npm i` in the terminal.
 
-From here, you may run `npm run start:prod` and open the application in a browser at [localhost:1111](http://localhost:1111).
+From here, you may run `npm run start:stage` and open the application in a browser at [localhost:1111](http://localhost:1111).
 
 ### Scripts
 To run a script, type `npm run <script-name>`
@@ -25,10 +25,12 @@ To run a script, type `npm run <script-name>`
 |:----------- |:----------- |
 | `build` | call build:dev |
 | `build:dev` | try to compile the application into /bin/ |
+| `build:stage` | try to compile an optimized version of the app into /bin/ with dev tools enabled |
 | `build:prod` | try to compile an optimized version of the application into /bin/ |
 | `start` | call start:dev |
-| `start:dev` | build:dev & start a hot-reloading server at [localhost:1000](http://localhost:1000) |
-| `start:prod` | build:prod & start a server at [localhost:1111](http://localhost:1111) |
+| `start:dev` | build:dev & start a hot-reloading dev server at [localhost:1000](http://localhost:1000) |
+| `start:stage` | build:stage & start a hot-reloading dev server at [localhost:1111](http://localhost:1000) |
+| `start:prod` | build:prod & start the npm server |
 | `test` | run all Jest unit tests and produce a coverage report |
 | `test:watch` | test & rerun when files are updated |
 

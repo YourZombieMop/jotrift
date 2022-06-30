@@ -14,8 +14,6 @@ module.exports = merge(
       new BundleAnalyzerPlugin({
         openAnalyzer: false,
         analyzerMode: 'static',
-        generateStatsFile: true,
-        statsFilename: 'bin-size-report.html'
       }),
     ]
   }

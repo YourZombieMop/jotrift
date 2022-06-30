@@ -15,7 +15,7 @@ module.exports = {
       openAnalyzer: false,
       analyzerMode: 'static',
       generateStatsFile: true,
-      statsFilename: 'bin-size-report'
+      statsFilename: 'bin-size-report.html'
     }),
   ],
 }

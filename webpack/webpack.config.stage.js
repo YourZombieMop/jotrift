@@ -6,8 +6,6 @@ module.exports = merge(
   prodConfig,
   {
     devServer: {
-      hot: true,
-      open: true,
       port: 1111,
     },
     plugins: [
